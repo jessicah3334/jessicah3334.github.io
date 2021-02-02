@@ -32,7 +32,7 @@ a.nav-link {
 -------------------------------------------------- */
 p.bold {
     font-family: Montserrat;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 800;
     margin-top: 1rem;
 }
@@ -52,7 +52,7 @@ p.howToReachMe {
     text-align: center;
     color: #000;
     font-family: Montserrat;
-    font-size:  3rem ;
+    font-size:  2.5rem ;
     font-weight: 700;
     background-color: #fff;
     background-size: auto;
@@ -67,7 +67,7 @@ div.contact-picture {
 
 p.contact-text {
     font-family: Montserrat;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 700;
     color: #000;
@@ -87,6 +87,7 @@ p.cv-text {
     width: 420px; 
     margin:auto; 
     padding-bottom: 1rem;
+    font-size: 1rem;
 }
 
 /* Portfolio
@@ -96,7 +97,7 @@ p.cv-text {
 }
 
 h2.featurette-heading{
-    font-size: 28pt;
+    font-size: 24pt;
     margin-top: 0;
 }
 
@@ -106,4 +107,8 @@ p.caption{
     color:#6c757d;
     margin: auto;
     padding-top: 0.5rem;
+}
+
+p.lead{
+    font-size: 1.1rem;
 }
