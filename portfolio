@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jessica Hicks">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Jessica Hicks</title>
+
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="/static/css/carousel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+  </head>
+<body>
+    
+<header>
+  <nav id="mynav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Jessica Hicks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cv">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container">
+  
+
+      <!-- START THE FEATURETTES -->
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Todd-Brown Lab, <span class="text-muted">Environmental Engineering Department, UF</span></h2>
+          <p class="lead">At the <a href="http://ktoddbrown.github.io/"; style="text-decoration: none;">Todd-Brown Lab</a> I worked heavily with computational tools such as R to analyze, visualize, and manage computational carbon stock models, as well as gain experience writing manuscripts and collaborating with people from different professional backgrounds. Working with the Marsh Equilibrium and Grow-Burn-Decay carbon models, I crafted a GUI (graphic user interface), coauthored a manuscript, created model visualization tools using R packages, and helped conduct a sensitivity analysis. This experience has been truly valuable because I gained the tenacity to work on difficult problems, experience working with many R packages, and the mindset to solve problems independently or to reach out when I need to.</p>
+        </div>
+        <div class="col-md-5" id="portfolio-div">
+          <img src="/static/images/ctm_gui.png" style="width:500px;height:333px;">
+          <p class="caption">Screenshot of the Graphic User Interface I created using RShiny and Bootstrap for the Marsh Equilibrium Model</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Lake Caroline Water Treatment Plant, <span class="text-muted">Potable Water System Design</span></h2>
+          <p class="lead">This was my senior design project for Environmental Engineering. I worked in a team of 6 to design a full-scale water treatment facility which included plant elements such as design-drawings, historical analysis, pipe network design, chemical treatment doses, and tank sizing. I am proud of this project because our team put a ton of effort into perfecting our final design report, which ended up being over 100 pages. I enjoyed the practicality and satisfaction that came from completing this project. The biggest challenge that we faced was the hands-off approach that our professor took, which we solved by pooling together as a team and making the best decisions with the information we had.</p>
+        </div>
+        <div class="col-md-5 order-md-1" id="portfolio-div">
+          <img src="/static/images/filter.png" style="width:500px;height:333px;">
+          <p class="caption">Autocad drawing I designed for the filtration section of our plant</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Intern, <span class="text-muted">UF Office of Sustainability</span></h2>
+          <p class="lead">I worked with the <a href="https://sustainable.ufl.edu/"; style="text-decoration: none;">Office of Sustainability</a> under their sustainable transportation program to educate students, fix bicycles, and improve campus infrastructure. I enjoyed this role because it merged my passion for bikes and sustainability and I was able to help the communinty through workshops and events focused on sustainable transportation. I also gained experience with GIS software through a project where we mapped the bike racks on campus. One thing that I really enjoyed was communicating with people on the topic of sustainability and teaching about bike safety and maintenance.</p>
+        </div>
+        <div class="col-md-5" id="portfolio-div">
+          <img src="/static/images/sus.jpg" style="width:500px;height:333px;">
+          <p class="caption">UF Annual Bike to Campus Week</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">This Website, <span class="text-muted">My first web development project</span></h2>
+          <p class="lead">This website was a really fun project, as I have never done any sort of web development before. The application was created using Flask in python and is hosted on Gihub pages. I wrote all the code for this website, which can be found on my Github. To create the GUI, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. When working on projects, it is tempting for me to be a perfectionist, but I know that it is also important to get to the end product. I have really enjoyed the learning process on this project and look forward to designing more websites in the future.</p>
+        </div>
+        <div class="col-md-5 order-md-1" id="portfolio-div">
+          <img src="/static/images/coding.png" style="width:500px;height:333px;">
+          <p class="caption">Screenshot of coding</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Officer and Trip Leader, <span class="text-muted">Outdoor Adventure and Recreation, UF</span></h2>
+          <p class="lead">UF's outdoor club is near and dear to me, since I met most of my friends and have had so many amazing experiences with this club. I had the pleasure of being a club officer this past year, serving as the Gear Shed Manager, where I took inventory of our outdoor gear, discussed COVID guidelines with the other Officers, and purchased new gear for the club. I have also been a trip leader and have led 10+ trips, being responsible for logistics and group safety. Moreover, being a part of this club helped me grow as a person, expanding my horizons and challenging myself.</p>
+        </div>
+        <div class="col-md-5" id="portfolio-div">
+          <img src="/static/images/snailshell.png" style="width:500px;height:333px;">
+          <p class="caption">Snail Shell Cave, Rockvale TN</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Transcontinental Cyclist, <span class="text-muted">Green Riders:Good Deeds on Bikes</span></h2>
+          <p class="lead">Green Riders is a group of people who go on bicycle tours while aiming to have a positive impact on communities and the environment. I joined them in 2019 as we biked 2700+ miles across Europe from France to Romania. Along the way we planted fruit trees, picked up trash, and raised awareness about biking as a form of sustainable transportation. I like to include this experience because I feel it is unique and showcases my passion, dedication to reaching goals, and ability to go out of my comfort zone. I am still involved with this group and will be the official route planner for our next trip down the Pacific coast (once the pandemic is over).</p>
+        </div>
+        <div class="col-md-5 order-md-1" id="portfolio-div">
+          <img src="/static/images/greenriders.jpg" style="width:500px;height:333px;">
+          <p class="caption">Group picture, France</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Wikipedia Article Scraper, <span class="text-muted">Personal Project</span></h2>
+          <p class="lead">This is a fun python project I did. It takes a link to a Wikipedia article as input and will give a related article as output. This was done using the python libraries requests and random; the function gathers all the links (a tags) on the input article page and follows a random one. It will do this a specified number of times, resulting in an article which is more or less related to the input article. This was a fun starter project which was actually a challenge because I had to learn about recursion.</p>
+        </div>
+        <div class="col-md-5" id="portfolio-div">
+          <img src="/static/images/wiki.png" style="width:500px;height:333px;">
+          <p class="caption">The scraper in action</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">VP of Service Events, <span class="text-muted">Gators for Environmental Community Outreach, UF</span></h2>
+          <p class="lead">I served as the Vice President of Service Events for an Environmental Outreach club at UF. I was responsible for planning trash cleanups, organic farm volunteering, and other community service events. This was a valuable experience early on in my college career as I learned how to be a successful leader as an introvert while participating in conservation efforts in the Gainesville community.</p>
+        </div>
+        <div class="col-md-5 order-md-1" id="portfolio-div">
+          <img src="/static/images/cleanup.jpg" style="width:500px;height:333px;">
+          <p class="caption">My car filled to the ceiling with trash from a cleanup event</p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+   
+      <!-- /END THE FEATURETTES -->
+
+
+</div>
+  </body>
+</html>
