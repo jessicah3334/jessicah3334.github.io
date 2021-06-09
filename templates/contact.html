@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container marketing"> 
+    <div class="row featurette">
+        <div class=col-md-7>
+            <div class=contact-picture>
+                <img src="{{ url_for('static', filename= 'images/cow.jpg') }}" style="width:500px;height:500px;">
+            </div>
+        </div> 
+
+        <div class=col-md-5>
+            <div class=image-title-wrapper>
+                <p class=howToReachMe>HOW TO REACH ME:</p>
+                <p class=contact-text>EMAIL: jessicah3334@gmail.com <br> Feel free to reach out! Also, check me out on Github: <a href="https://github.com/jessicah3334">https://github.com/jessicah3334</a> and LinkedIn: <a href="https://www.linkedin.com/in/jessicah3334/">https://www.linkedin.com/in/jessicah3334/</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

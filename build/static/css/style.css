@@ -1,0 +1,114 @@
+/* Navbar Customization
+-------------------------------------------------- */
+
+#mynav {
+    background-color: #eee !important;
+    padding-top: 1.6rem ;
+    padding-bottom: 1.6rem ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    background-color: #eee;
+    padding-top: 110px;
+}
+
+a.navbar-brand {
+    font-family: Pacifico;
+    font-size: 1.7rem;
+    color:rgb(24, 102, 122) !important;
+}
+
+a.nav-link {
+    color:rgb(4, 40, 49) !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem!important;
+}
+
+/* Index
+-------------------------------------------------- */
+p.bold {
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+a.btn {
+    background-color:rgb(24, 102, 122);
+}
+
+a.btn:hover {
+    background-color: rgb(4, 40, 49);
+}
+
+/* Contact
+-------------------------------------------------- */
+p.howToReachMe {
+    margin-top: 8rem;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size:  2.5rem ;
+    font-weight: 700;
+    background-color: #fff;
+    background-size: auto;
+}
+
+div.contact-picture {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex: 0 0 auto;
+    width: 51.5%;
+}
+
+p.contact-text {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    display: inline;
+}
+
+/* CV
+-------------------------------------------------- */
+div.col-lg-6 {
+   text-align: center; 
+   padding-top: 2rem;
+   color: #000 
+}
+
+p.cv-text { 
+    width: 420px; 
+    margin:auto; 
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Portfolio
+-------------------------------------------------- */
+#portfolio-div{
+    text-align:center
+}
+
+h2.featurette-heading{
+    font-size: 24pt;
+    margin-top: 0;
+}
+
+p.caption{
+    font-family: Montserrat;
+    font-size: 11pt;
+    color:#6c757d;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+p.lead{
+    font-size: 1.1rem;
+}

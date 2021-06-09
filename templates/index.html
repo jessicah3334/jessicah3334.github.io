@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+    <div class="container marketing">
+      
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="bold">Jessica Hicks is an upcoming Environmental Engineering graduate from the University of Florida with a unique skillset in computational analysis and environmental leadership. She is a deep thinker and lifelong learner with a passion for communicating complex information and concepts to people of all backgrounds. </p>
+          <p class="lead">Jessica plans to start a career in data analysis, sustainability, and/or water resources. During her time in college, she gained experience with analyzing, visualizing, and managing computational carbon stock models through work with the <a href="http://ktoddbrown.github.io/"; style="text-decoration: none">Todd-Brown lab</a>. Since this has fostered a love for coding, Jessica enjoys creating fun projects, such as this website, in her spare time. She is also involved with her university community, where she has held leadership positions with several environmental clubs and has been an intern with the <a href="https://sustainable.ufl.edu/"; style="text-decoration: none">UF Office of Sustainability</a>. Jessica's deep passion for the environment often leads her outdoors, where she can be found riding bikes or climbing mountians. She aspires to foster a dynamic career where her talent can be put to use in a meaningful way.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="{{ url_for('static', filename= 'images/headshot2.jpg') }}" style="width:500px;height:500px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="{{ url_for('static', filename= 'images/geco.jpg') }}" style="width:170px; height:170px; border-radius:50%;">
+  
+          <h2>Portfolio</h2>
+          <p class="lead">Click here to learn more about my past projects and experiences. </p>
+          <p><a class="btn btn-secondary" href="{{ url_for('portfolio')}}" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="{{ url_for('static', filename= 'images/zion.jpg') }}" style="width:170px; height:170px; border-radius:50%;">
+  
+          <h2>Contact</h2>
+          <p class="lead">Click here to get in touch with me.</p>
+          <p><a class="btn btn-secondary" href="{{ url_for('contact')}}" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="{{ url_for('static', filename= 'images/res.png') }}" style="width:170px; height:170px; border-radius:50%;">
+  
+          <h2>CV</h2>
+          <p class="lead">Click here for a downloadable copy of my resume.</p>
+          <p><a class="btn btn-secondary" href="{{ url_for('cv')}}" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+    </div><!-- /.container -->
+        
+{% endblock %}
