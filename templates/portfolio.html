@@ -3,11 +3,36 @@
 {% block content %}
 
       <!-- START THE FEATURETTES -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Intern / Research Fellow, <span class="text-muted">Environmental Data Initiative, Baylor University</span></h2>
+          <p class="lead">Working with <a href="https://environmentaldatainitiative.org/"; target="_blank"; style="text-decoration: none;">Environmental Data Initiative</a> this past summer, I have been curating lake and stream datasets for use in the EDI data portal, an open source platform for researchers to view and work with large environmental datasets. I have been performing a variety of ETL tasks and metadata wrangling, as well as creating visualization tools using RShiny. We are creating several such tools, including a dashboard to view and download StreamCat and LakeCat watershed metrics from the EPA. I have enjoyed the opportunity to lean more about data manipulation and presentation while also creating useful tools for researchers and others.</p>
+        </div>
+        <div class="col-md-5" id="portfolio-div">
+          <img src="{{ url_for('static', filename= 'images/CRASRDashboard.png') }}" style="max-width: 100%;">
+          <p class="caption">Screenshot of a dashboard I made for Baylor lake and stream data using RShiny, Leaflet, and DT packages in R</p>
+        </div>
+      </div>
   
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Restoration Analysis of the Captain Jack Mill Superfund Site, <span class="text-muted">Groundwater Hydrology, UF</span></h2>
+          <p class="lead">For this project, I did a contaminant and restoration analysis of the <a href="https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0800892"; target="_blank"; style="text-decoration: none;">Captain Jack Mill Superfund Site</a> in Boulder County, CO. This involved creating a site model, conducting relevant calculations (mass flux, cost estimate, remediation scenarios), and modeling the contaminant plume using Interactive Groundwater (IGW). This was a great project for learning remediation strategies because I was able to create my own solution strategy and compare it with the strategy that the engineers employed in real life. </p>
+        </div>
+        <div class="col-md-5 order-md-1" id="portfolio-div">
+          <img src="{{ url_for('static', filename= 'images/IGW.png') }}" style="max-width: 100%;">
+          <p class="caption">Screenshot of Contaminant Plume 2D Modeling using Interactive Groundwater</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Todd-Brown Lab, <span class="text-muted">Environmental Engineering Department, UF</span></h2>
-          <p class="lead">At the <a href="http://ktoddbrown.github.io/"; style="text-decoration: none;">Todd-Brown Lab</a> I worked heavily with computational tools such as R to analyze, visualize, and manage carbon stock models, which inform scholars and policymakers how vital ecosystems will respond to climate change. I also gained experience writing manuscripts and collaborating with people from different professional backgrounds. Working with the Marsh Equilibrium and Grow-Burn-Decay carbon models, I crafted a GUI (graphic user interface), coauthored a manuscript, created model visualization tools using R packages, and helped conduct a sensitivity analysis. This experience has been truly valuable because I gained the tenacity to work on difficult problems, experience working with many different R packages, Markdown, and Git, and the mindset to solve problems efficiently.</p>
+          <p class="lead">At the <a href="http://ktoddbrown.github.io/"; target="_blank"; style="text-decoration: none;">Todd-Brown Lab</a> I worked heavily with computational tools such as R to analyze, visualize, and manage carbon stock models, which inform scholars and policymakers how vital ecosystems will respond to climate change. I also gained experience writing manuscripts and collaborating with people from different professional backgrounds. Working with the Marsh Equilibrium and Grow-Burn-Decay carbon models, I crafted a GUI (graphic user interface), coauthored a manuscript, created model visualization tools using R packages, and helped conduct a sensitivity analysis. This experience has been truly valuable because I gained the tenacity to work on difficult problems, experience working with many different R packages, Markdown, and Git, and the mindset to solve problems efficiently.</p>
         </div>
         <div class="col-md-5" id="portfolio-div">
           <img src="{{ url_for('static', filename= 'images/ctm_gui.png') }}" style="max-width: 100%;">
@@ -33,7 +58,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Intern, <span class="text-muted">UF Office of Sustainability</span></h2>
-          <p class="lead">I worked with the <a href="https://sustainable.ufl.edu/"; style="text-decoration: none;">Office of Sustainability</a> under their sustainable transportation program to educate students, fix bicycles, and improve campus infrastructure. I enjoyed this role because it merged my passion for bikes and sustainability, and I was able to help the community through workshops and events focused on sustainable transportation. I also gained experience with GIS software through a project where we mapped the bike racks on campus. Some things that I really enjoyed were communicating with people on the topic of sustainability and teaching about bike safety and maintenance.</p>
+          <p class="lead">I worked with the <a href="https://sustainable.ufl.edu/"; target="_blank"; style="text-decoration: none;">Office of Sustainability</a> under their sustainable transportation program to educate students, fix bicycles, and improve campus infrastructure. I enjoyed this role because it merged my passion for bikes and sustainability, and I was able to help the community through workshops and events focused on sustainable transportation. I also gained experience with GIS software through a project where we mapped the bike racks on campus. Some things that I really enjoyed were communicating with people on the topic of sustainability and teaching about bike safety and maintenance.</p>
         </div>
         <div class="col-md-5" id="portfolio-div">
           <img src="{{ url_for('static', filename= 'images/sus.jpg') }}" style="max-width: 100%;">
@@ -46,7 +71,7 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">This Website, <span class="text-muted">My first web development project</span></h2>
-          <p class="lead">This website was a fun project, as I have never done any sort of web development before. The application was created using Flask in Python and is hosted on GitHub pages. I wrote all the code for this website, which can be found on my GitHub. To create the front end, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. When working on projects, it is tempting for me to be a perfectionist, but I know that it is also important to get to the end product. I have really enjoyed the learning process on this project and look forward to designing more websites in the future.</p>
+          <p class="lead">This website was a fun project as I enjoyed creating a simple app to view and share my projects. The application was created using Flask in Python and is hosted on GitHub pages. I wrote all the code for this website, which can be found on my <a href="https://github.com/jessicah3334"; target="_blank"; style="text-decoration: none;">GitHub</a>. To create the front end, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. When working on projects, it is tempting for me to be a perfectionist, but I know that it is also important to get to the end product. I have since done a few other web development projects and still enjoy the satisfaction of creating functional applications.</p>
         </div>
         <div class="col-md-5 order-md-1" id="portfolio-div">
           <img src="{{ url_for('static', filename= 'images/coding.png') }}" style="max-width: 100%;">
