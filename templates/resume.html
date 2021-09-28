@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-4 resume">
+        <img src="{{ url_for('static', filename= 'images/software.jpg') }}" style="width:250px; height:250px; border-radius:50%;">
+
+        <h2>Software Eng. / Developer</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to a software engineering / developer role. </p>
+        <p><a class="btn btn-secondary" href="{{ url_for('static', filename= 'pdf/JHicks_SW.pdf') }}" role="button">Download &raquo;</a></p>
+      </div>
+
+    <div class="col-lg-4 resume">
+        <img src="{{ url_for('static', filename= 'images/datascience.jpg') }}" style="width:250px; height:250px; border-radius:50%;">
+
+        <h2>Data Analysis</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to a data analysis or data engineering role. </p>
+        <p><a class="btn btn-secondary" href="{{ url_for('static', filename= 'pdf/JHicks_DA.pdf') }}" role="button">Download &raquo;</a></p>
+      </div>
+    
+    <div class="col-lg-4 resume">
+        <img src="{{ url_for('static', filename= 'images/waterresources.jpg') }}" style="width:250px; height:250px; border-radius:50%;">
+
+        <h2>Environmental Eng.</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to an environmental engineering or water resources role. </p>
+        <p><a class="btn btn-secondary" href="{{ url_for('static', filename= 'pdf/JHicks_WR.pdf') }}" role="button">Download &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}

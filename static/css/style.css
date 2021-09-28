@@ -30,6 +30,10 @@ a.nav-link {
 
 /* Index
 -------------------------------------------------- */
+div.bio {
+    padding-top: 2rem;
+}
+
 p.bold {
     font-family: Montserrat;
     font-size: 1.1rem;
@@ -47,6 +51,10 @@ a.btn:hover {
 
 /* Contact
 -------------------------------------------------- */
+div.contact-content {
+    padding-top: 5vh;
+}
+
 p.howToReachMe {
     margin-top: 8rem;
     text-align: center;
@@ -75,16 +83,16 @@ p.contact-text {
     display: inline;
 }
 
-/* CV
+/* Resume
 -------------------------------------------------- */
-div.col-lg-6 {
+div.resume {
    text-align: center; 
-   padding-top: 2rem;
+   padding-top: 10vh;
    color: #000 
 }
 
 p.cv-text { 
-    width: 420px; 
+    /* width: 420px;  */
     margin:auto; 
     padding-bottom: 1rem;
     font-size: 1rem;
