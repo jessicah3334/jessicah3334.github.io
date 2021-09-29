@@ -1,6 +1,6 @@
+/* Disclaimer: This CSS is written terribly and I should fix it */
 /* Navbar Customization
 -------------------------------------------------- */
-
 #mynav {
     background-color: #eee !important;
     padding-top: 1.6rem ;
@@ -30,8 +30,8 @@ a.nav-link {
 
 /* Index
 -------------------------------------------------- */
-div.bio {
-    padding-top: 2rem;
+.row {
+    align-items: center ;
 }
 
 p.bold {
@@ -39,6 +39,10 @@ p.bold {
     font-size: 1.1rem;
     font-weight: 800;
     margin-top: 1rem;
+}
+
+p.lead {
+    font-size: 1.1rem;
 }
 
 a.btn {
@@ -56,7 +60,7 @@ div.contact-content {
 }
 
 p.howToReachMe {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
     text-align: center;
     color: #000;
     font-family: Montserrat;
@@ -100,16 +104,16 @@ p.cv-text {
 
 /* Portfolio
 -------------------------------------------------- */
-#portfolio-div{
+#portfolio-div {
     text-align:center
 }
 
-h2.featurette-heading{
+h2.featurette-heading {
     font-size: 24pt;
     margin-top: 0;
 }
 
-p.caption{
+p.caption {
     font-family: Montserrat;
     font-size: 11pt;
     color:#6c757d;
@@ -117,6 +121,11 @@ p.caption{
     padding-top: 0.5rem;
 }
 
-p.lead{
-    font-size: 1.1rem;
+a.learn-more {
+    color:rgb(24, 102, 122);
+    font-size: 1.3rem;
+}
+
+a.learn-more:hover {
+    color: rgb(4, 40, 49);
 }
