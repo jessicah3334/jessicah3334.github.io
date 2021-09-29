@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
+    <!-- Font Awesome Icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> very limited version of fa but it's fine -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -51,13 +55,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/cv">CV</a>
+            <a class="nav-link" href="/resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
@@ -71,18 +72,21 @@
 </header>
 <div class="container">
   
-<div class="container marketing"> 
+<div class="container marketing, contact-content"> 
     <div class="row featurette">
-        <div class=col-md-7>
+        <div class=col-md-6>
             <div class=contact-picture>
                 <img src="/static/images/cow.jpg" style="width:500px;height:500px;">
             </div>
         </div> 
 
-        <div class=col-md-5>
-            <div class=image-title-wrapper>
-                <p class=howToReachMe>HOW TO REACH ME:</p>
-                <p class=contact-text>EMAIL: jessicah3334@gmail.com <br> Feel free to reach out! Also, check me out on Github: <a href="https://github.com/jessicah3334"; target="_blank">https://github.com/jessicah3334</a> and LinkedIn: <a href="https://www.linkedin.com/in/jessicah3334/"; target="_blank">https://www.linkedin.com/in/jessicah3334/</a></p>
+        <div class="col-md-6">
+            <div class="contact-wrapper">
+                <h1 class=how-to-reach-me>How to Reach Me:</h1>
+                <br>
+                <p class=contact-text><i class="fa fa-envelope"></i> Email: jessicah3334@gmail.com <br></p>
+                <p class=contact-text><i class="fab fa-github"></i> Github: <a href="https://github.com/jessicah3334"; class="contact-link"; target="_blank">github.com/jessicah3334</a><br></p>
+                <p class=contact-text><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jessicah3334/"; class="contact-link";  target="_blank">linkedin.com/in/jessicah3334/</a><br></p>
             </div>
         </div>
     </div>

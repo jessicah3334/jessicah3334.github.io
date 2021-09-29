@@ -1,6 +1,6 @@
+/* Disclaimer: This CSS is written terribly and I should fix it */
 /* Navbar Customization
 -------------------------------------------------- */
-
 #mynav {
     background-color: #eee !important;
     padding-top: 1.6rem ;
@@ -30,11 +30,19 @@ a.nav-link {
 
 /* Index
 -------------------------------------------------- */
+.row {
+    align-items: center ;
+}
+
 p.bold {
     font-family: Montserrat;
     font-size: 1.1rem;
     font-weight: 800;
     margin-top: 1rem;
+}
+
+p.lead {
+    font-size: 1.1rem;
 }
 
 a.btn {
@@ -47,61 +55,82 @@ a.btn:hover {
 
 /* Contact
 -------------------------------------------------- */
-p.howToReachMe {
-    margin-top: 8rem;
+div.contact-content {
+    padding-top: 5vh;
+}
+
+.how-to-reach-me {
+    /* margin-top: 8rem; */
     text-align: center;
     color: #000;
     font-family: Montserrat;
-    font-size:  2.5rem ;
+    font-size:  3rem ;
     font-weight: 700;
-    background-color: #fff;
-    background-size: auto;
+    display: inline;
+    /* background-color: #fff;
+    background-size: auto; */
 }
 
 div.contact-picture {
     padding-left: 2rem;
     padding-right: 2rem;
-    flex: 0 0 auto;
-    width: 51.5%;
+    /* flex: 0 0 auto;
+    width: 51.5%; */
 }
 
 p.contact-text {
     font-family: Montserrat;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 700;
     color: #000;
-    background-color: #fff;
+    /* background-color: #fff; */
     display: inline;
 }
 
-/* CV
+a.contact-link {
+    color:rgb(24, 102, 122);
+}
+
+a.contact-link:hover {
+    color: rgb(4, 40, 49);
+}
+
+.contact-wrapper {
+    padding-left: 0.2rem;
+}
+
+/* Resume
 -------------------------------------------------- */
-div.col-lg-6 {
+div.resume {
    text-align: center; 
-   padding-top: 2rem;
+   padding-top: 10vh;
    color: #000 
 }
 
 p.cv-text { 
-    width: 420px; 
+    /* width: 420px;  */
     margin:auto; 
     padding-bottom: 1rem;
     font-size: 1rem;
 }
 
+.resume-text {
+    padding-top: 2rem;
+}
+
 /* Portfolio
 -------------------------------------------------- */
-#portfolio-div{
+#portfolio-div {
     text-align:center
 }
 
-h2.featurette-heading{
+h2.featurette-heading {
     font-size: 24pt;
     margin-top: 0;
 }
 
-p.caption{
+p.caption {
     font-family: Montserrat;
     font-size: 11pt;
     color:#6c757d;
@@ -109,6 +138,11 @@ p.caption{
     padding-top: 0.5rem;
 }
 
-p.lead{
-    font-size: 1.1rem;
+a.learn-more {
+    color:rgb(24, 102, 122);
+    font-size: 1.3rem;
+}
+
+a.learn-more:hover {
+    color: rgb(4, 40, 49);
 }

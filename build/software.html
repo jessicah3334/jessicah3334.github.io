@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jessica Hicks">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Jessica Hicks</title>
+
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="/static/css/carousel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+    <!-- Font Awesome Icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> very limited version of fa but it's fine -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+  </head>
+<body>
+    
+<header>
+  <nav id="mynav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Jessica Hicks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container">
+  
+    <div class="container">
+        <h1 class="portfolio-section">Software / Web Design</h1>
+        <p><a class="learn-more bold" href="/portfolio">Go back &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+                <img src="/static/images/funstore.png" style="max-width: 100%;">
+                <p class="caption">Screenshot of Fun Store website</p>
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Web Design Consulting, <span class="text-muted">The Fun Store</span></h2>
+              <p class="lead">View the site <a href="http://funstorefl.com/"; target="_blank"; style="text-decoration: none;">here</a>. This is a consulting gig I had updating the website for a family business. This project involved migrating the old website to a new hosting site, creating a new updated look for the site, and implementing an online ordering through an eCommerce platform. This project was rewarding because my efforts directly enhanced company revenue through the online ordering system and my work is seen by dozens of people every day. The site redesign was done using WordPress and writing custom CSS for some components. I also learned some PHP in order to implement the eCommerce platform and create custom order fields. Going forward, I would like to learn more about design to make the site look even more professional.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Portfilio Site,<span class="text-muted"> Personal Project</span></h2>
+              <p class="lead">This website was a fun project as I enjoyed creating a simple app to view and share my projects. The application was created using Flask in Python and is hosted on GitHub pages. I wrote all the code for this website, which can be found on my <a href="https://github.com/jessicah3334"; target="_blank"; style="text-decoration: none;">GitHub</a>. To create the front end, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. Now that I know more about CSS, I would like to write my own classes next time and be more organized with my code.When working on projects, it can be tempting for me to spend too much time on individual features, but I know that it is also important to get to the end product. I have since done a few other web development projects and still enjoy the satisfaction of creating functional applications.</p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+              <img src="/static/images/coding.png" style="max-width: 100%;">
+              <p class="caption">Screenshot from VSCode</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+                <img src="/static/images/wiki.png" style="max-width: 100%;;">
+                <p class="caption">Scraper in action</p>
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Wikipedia Article Scraper, <span class="text-muted">Personal Project</span></h2>
+              <p class="lead">This is a fun python project I did. It takes a link to a Wikipedia article as input and will give a related article as output. This was done using the Python libraries requests and random; the function gathers all the links (a tags) from the input article page and follows a random link. It will do this a specified number of times, resulting in an article which is more or less related to the input article. This was a fun starter project which was also a challenge because I had to learn about recursion.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Weather Bot, <span class="text-muted">Personal Project</span></h2>
+                <p class="lead">Another Python web scraping project. This bot scrapes the current weather conditions from a popular weather app and sends the user a daily text message with the weather forecast.</p>
+              </div>
+        </div>
+
+    </div>
+
+</div>
+  </body>
+</html>
