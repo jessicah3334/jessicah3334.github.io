@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="portfolio-section">Software / Web Design</h1>
+        <p><a class="learn-more bold" href="{{ url_for('portfolio')}}">Go back &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+                <img src="{{ url_for('static', filename= 'images/funstore.png') }}" style="max-width: 100%;">
+                <p class="caption">Screenshot of Fun Store website</p>
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Web Design Consulting, <span class="text-muted">The Fun Store</span></h2>
+              <p class="lead">View the site <a href="http://funstorefl.com/"; target="_blank"; style="text-decoration: none;">here</a>. This is a consulting gig I had updating the website for a family business. This project involved migrating the old website to a new hosting site, creating a new updated look for the site, and implementing an online ordering through an eCommerce platform. This project was rewarding because my efforts directly enhanced company revenue through the online ordering system and my work is seen by dozens of people every day. The site redesign was done using WordPress and writing custom CSS for some components. I also learned some PHP in order to implement the eCommerce platform and create custom order fields. Going forward, I would like to learn more about design to make the site look even more professional.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Portfilio Site,<span class="text-muted"> Personal Project</span></h2>
+              <p class="lead">This website was a fun project as I enjoyed creating a simple app to view and share my projects. The application was created using Flask in Python and is hosted on GitHub pages. I wrote all the code for this website, which can be found on my <a href="https://github.com/jessicah3334"; target="_blank"; style="text-decoration: none;">GitHub</a>. To create the front end, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. Now that I know more about CSS, I would like to write my own classes next time and be more organized with my code.When working on projects, it can be tempting for me to spend too much time on individual features, but I know that it is also important to get to the end product. I have since done a few other web development projects and still enjoy the satisfaction of creating functional applications.</p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/coding.png') }}" style="max-width: 100%;">
+              <p class="caption">Screenshot from VSCode</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+                <img src="{{ url_for('static', filename= 'images/wiki.png') }}" style="max-width: 100%;;">
+                <p class="caption">Scraper in action</p>
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Wikipedia Article Scraper, <span class="text-muted">Personal Project</span></h2>
+              <p class="lead">This is a fun python project I did. It takes a link to a Wikipedia article as input and will give a related article as output. This was done using the Python libraries requests and random; the function gathers all the links (a tags) from the input article page and follows a random link. It will do this a specified number of times, resulting in an article which is more or less related to the input article. This was a fun starter project which was also a challenge because I had to learn about recursion.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Weather Bot, <span class="text-muted">Personal Project</span></h2>
+                <p class="lead">Another Python web scraping project. This bot scrapes the current weather conditions from a popular weather app and sends the user a daily text message with the weather forecast.</p>
+              </div>
+        </div>
+
+    </div>
+{% endblock %}

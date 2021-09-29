@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="portfolio-section">Engineering</h1>
+        <p><a class="learn-more bold" href="{{ url_for('portfolio')}}">Go back &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Restoration Analysis of the Captain Jack Mill Superfund Site, <span class="text-muted">Groundwater Hydrology, UF</span></h2>
+                <p class="lead">For this project, I did a contaminant and restoration analysis of the <a href="https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0800892"; target="_blank"; style="text-decoration: none;">Captain Jack Mill Superfund Site</a> in Boulder County, CO. This involved creating a site model, conducting relevant calculations (mass flux, cost estimate, remediation scenarios), and modeling the contaminant plume using Interactive Groundwater (IGW). This was a great project for learning remediation strategies because I was able to create my own solution strategy and compare it with the strategy that the engineers employed in real life. </p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+                <img src="{{ url_for('static', filename= 'images/IGW.png') }}" style="max-width: 100%;">
+                <p class="caption">Screenshot of Contaminant Plume 2D Modeling using Interactive Groundwater</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+                <img src="{{ url_for('static', filename= 'images/filter.png') }}" style="max-width: 100%;">
+                <p class="caption">Autocad drawing I designed for the filtration section of our plant</p>
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Lake Caroline Water Treatment Plant, <span class="text-muted">Potable Water System Design</span></h2>
+                <p class="lead">This was my senior design project for Environmental Engineering. I worked in a team of 6 to design a full-scale water treatment facility which included plant elements such as design-drawings, historical analysis, pipe network design, chemical treatment doses, and tank sizing. I am proud of this project because our team put a ton of effort into perfecting our final design report, which ended up being over 100 pages. I enjoyed the practicality and satisfaction that came from completing this project. The biggest challenge that we faced was the hands-off approach that our professor took, which we solved by pooling together as a team and making the best decisions with the information we had.</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Mapping Campus Bicycle Infrastructure <span class="text-muted">GIS Project, UF Office of Sustainability</span></h2>
+                <p class="lead">This was a project I did as a part of my internship working with the UF Office of Sustainability (see <a href="{{ url_for('volunteering')}}"; target="_blank"; style="text-decoration: none;">here</a>). I was working with GIS and the GIS Collector app to map campus bicycle infrastructure in order to more efficiently plan campus facilities and to promote bicycling as sustainable transportation. I have also done other GIS projects and would love to tell you about them. I valued working as an intern because I got to participate in interesting projects such as that one, and I also was able to teach other students about sustainability practices through outreach events.</p>
+            </div>
+
+        </div>
+
+</div>
+
+
+
+{% endblock %}

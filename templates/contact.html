@@ -3,16 +3,19 @@
 {% block content %}
 <div class="container marketing, contact-content"> 
     <div class="row featurette">
-        <div class=col-md-7>
+        <div class=col-md-6>
             <div class=contact-picture>
                 <img src="{{ url_for('static', filename= 'images/cow.jpg') }}" style="width:500px;height:500px;">
             </div>
         </div> 
 
-        <div class="col-md-5">
-            <div class="image-title-wrapper">
-                <p class=howToReachMe>HOW TO REACH ME:</p>
-                <p class=contact-text>EMAIL: jessicah3334@gmail.com <br> Feel free to reach out! Also, check me out on Github: <a href="https://github.com/jessicah3334"; target="_blank">https://github.com/jessicah3334</a> and LinkedIn: <a href="https://www.linkedin.com/in/jessicah3334/"; target="_blank">https://www.linkedin.com/in/jessicah3334/</a></p>
+        <div class="col-md-6">
+            <div class="contact-wrapper">
+                <h1 class=how-to-reach-me>How to Reach Me:</h1>
+                <br>
+                <p class=contact-text><i class="fa fa-envelope"></i> Email: jessicah3334@gmail.com <br></p>
+                <p class=contact-text><i class="fab fa-github"></i> Github: <a href="https://github.com/jessicah3334"; class="contact-link"; target="_blank">github.com/jessicah3334</a><br></p>
+                <p class=contact-text><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jessicah3334/"; class="contact-link";  target="_blank">linkedin.com/in/jessicah3334/</a><br></p>
             </div>
         </div>
     </div>

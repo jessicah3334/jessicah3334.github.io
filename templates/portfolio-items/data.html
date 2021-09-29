@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="portfolio-section">Data Analysis</h1>
+        <p><a class="learn-more bold" href="{{ url_for('portfolio')}}">Go back &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Data Analytics Intern, <span class="text-muted">Environmental Data Initiative, Baylor University</span></h2>
+            <p class="lead">Working with <a href="https://environmentaldatainitiative.org/"; target="_blank"; style="text-decoration: none;">Environmental Data Initiative</a> this past summer, I have been curating lake and stream datasets for use in the EDI data portal, an open source platform for researchers to view and work with large environmental datasets. I have been performing a variety of ETL and data analysis tasks, such as data cleaning and metadata wrangling, and I have been creating data visualization tools and dashboards using RShiny. This work has been impactful as the data packages and visualization tools will be used by dozens of researchers. I have enjoyed the opportunity to learn more about data manipulation and presentation as well as the experience working in a team and conducting peer code reviews.</p>
+          </div>
+          <div class="col-md-5" id="portfolio-div">
+            <img src="{{ url_for('static', filename= 'images/CRASRData.png') }}" style="max-width: 100%;">
+            <p class="caption">Screenshot from RStudio, working with a large volume of sensor data</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/ctm_gui.png') }}" style="max-width: 100%;">
+              <p class="caption">Screenshot of the Graphic User Interface I created using RShiny and Bootstrap for the Marsh Equilibrium Model</p>
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Programming Research Assistant,<span class="text-muted"> Todd-Brown Lab, Environmental Engineering Department, UF</span></h2>
+                <p class="lead">At the <a href="http://ktoddbrown.github.io/"; target="_blank"; style="text-decoration: none;">Todd-Brown Lab</a> I worked heavily with computational tools such as R to analyze, visualize, and manage carbon stock models, which inform scholars and policymakers how vital ecosystems will respond to climate change. I gained experience with data manipulation, statistical analysis, and model visualization. I also performed code reviews / refactoring and code documentation for our model. One of the most interesting projects that I worked on was a sensitivity analysis, which involved running model simulations thousands of times and calculating the numerical gradient across the model space to determine which parameters were more sensitive than others. This experience was very valuable to me as I learned a lot about programming and working in a team, and I gained the mindset to solve complex problems in an efficient way.</p>
+              </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Green Riders Infographic, <span class="text-muted">Tableau Project</span></h2>
+              <p class="lead">I wanted to create a project in Tableau to hone my data visualization experience. I decided to create an infographic to showcase the transcontinental bike volunteering tour I was a part of in 2019. It is nice to have a graphic to commemorate the good deeds that we did as well as to remember all the locations we visited. The data gathering was mostly done manually using excel, as a lot of my records from the trip were either hand-written or on another spreadsheet. The rest of the project was done in Tableau.</p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/greenridersinfo.png') }}" style="max-width: 100%;">
+              <p class="caption">Check out the project <a href="https://public.tableau.com/app/profile/jessica4526/viz/GreenRidersInfographic/GR_Infographic"; target="_blank"; style="text-decoration: none;">here.</a></p>
+            </div>
+          </div>
+
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="portfolio-section">Volunteering / Sustainability</h1>
+        <p><a class="learn-more bold" href="{{ url_for('portfolio')}}">Go back &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Transcontinental Cyclist, <span class="text-muted">Green Riders:Good Deeds on Bikes</span></h2>
+              <p class="lead">Green Riders is a group of people who go on bicycle tours while aiming to have a positive impact on communities and the environment. I joined them in 2019 as we biked 2700+ miles across Europe from France to Romania. Along the way we planted fruit trees, picked up trash, and raised awareness about biking as a form of sustainable transportation. I like to include this experience because I feel it is unique and showcases my passion, dedication to reaching goals, and ability to go out of my comfort zone. I am still involved with this group and will be the official route planner for our next trip down the Pacific coast (once the pandemic is over).</p>
+            </div>
+            <div class="col-md-5 order-md-1" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/greenriders.jpg') }}" style="max-width: 100%;">
+              <p class="caption">Group picture, France</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Intern, <span class="text-muted">UF Office of Sustainability</span></h2>
+              <p class="lead">I worked with the <a href="https://sustainable.ufl.edu/"; target="_blank"; style="text-decoration: none;">Office of Sustainability</a> under their sustainable transportation program to educate students, fix bicycles, and improve campus infrastructure. I enjoyed this role because it merged my passion for bikes and sustainability, and I was able to help the community through workshops and events focused on sustainable transportation. I also gained experience with GIS software through a project where we mapped the bike racks on campus. Some things that I really enjoyed were communicating with people on the topic of sustainability and teaching about bike safety and maintenance.</p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/sus.jpg') }}" style="max-width: 100%;">
+              <p class="caption">UF Annual Bike to Campus Week</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">VP of Service Events, <span class="text-muted">Gators for Environmental Community Outreach, UF</span></h2>
+              <p class="lead">I served as the Vice President of Service Events for an Environmental Outreach club at UF. I was responsible for planning trash cleanups, organic farm volunteering, and other community service events. This was a valuable experience early on in my college career as I learned how to be a successful leader as an introvert while participating in conservation efforts in the Gainesville community.</p>
+            </div>
+            <div class="col-md-5 order-md-1" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/cleanup.jpg') }}" style="max-width: 100%;">
+              <p class="caption">My car filled to the ceiling with trash from a cleanup event</p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Officer and Trip Leader, <span class="text-muted">Outdoor Adventure and Recreation, UF</span></h2>
+              <p class="lead">UF's outdoor club is near and dear to me, since I met most of my friends and have had so many amazing experiences with this club. I had the pleasure of being a club officer this past year, serving as the Gear Shed Manager, where I took inventory of our outdoor gear, discussed COVID guidelines with the other Officers, and purchased new gear for the club. I have also been a trip leader and have led 10+ trips, being responsible for logistics and group safety. Moreover, being a part of this club helped me grow as a person, expanding my horizons and challenging myself.</p>
+            </div>
+            <div class="col-md-5" id="portfolio-div">
+              <img src="{{ url_for('static', filename= 'images/snailshell.png') }}" style="max-width: 100%;">
+              <p class="caption">Snail Shell Cave, Rockvale TN</p>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

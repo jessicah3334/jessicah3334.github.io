@@ -59,32 +59,45 @@ div.contact-content {
     padding-top: 5vh;
 }
 
-p.howToReachMe {
+.how-to-reach-me {
     /* margin-top: 8rem; */
     text-align: center;
     color: #000;
     font-family: Montserrat;
-    font-size:  2.5rem ;
+    font-size:  3rem ;
     font-weight: 700;
-    background-color: #fff;
-    background-size: auto;
+    display: inline;
+    /* background-color: #fff;
+    background-size: auto; */
 }
 
 div.contact-picture {
     padding-left: 2rem;
     padding-right: 2rem;
-    flex: 0 0 auto;
-    width: 51.5%;
+    /* flex: 0 0 auto;
+    width: 51.5%; */
 }
 
 p.contact-text {
     font-family: Montserrat;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 700;
     color: #000;
-    background-color: #fff;
+    /* background-color: #fff; */
     display: inline;
+}
+
+a.contact-link {
+    color:rgb(24, 102, 122);
+}
+
+a.contact-link:hover {
+    color: rgb(4, 40, 49);
+}
+
+.contact-wrapper {
+    padding-left: 0.2rem;
 }
 
 /* Resume
@@ -100,6 +113,10 @@ p.cv-text {
     margin:auto; 
     padding-bottom: 1rem;
     font-size: 1rem;
+}
+
+.resume-text {
+    padding-top: 2rem;
 }
 
 /* Portfolio
