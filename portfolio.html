@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
+    <!-- Font Awesome Icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> very limited version of fa but it's fine -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -51,13 +55,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/cv">CV</a>
+            <a class="nav-link" href="/resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
@@ -71,139 +72,67 @@
 </header>
 <div class="container">
   
+      <div class="container">
+      <!-- START THE PORTFOLIO SECTIONS -->
+        <div class="row">
+          <div class="col-md-1 text-center">
+            <i class="fa fa-chart-bar fa-3x"></i>
+          </div>
+          <div class="col-md-5">
+            <h1 class="portfolio-section">Data Analysis</h1>
+            <p><a class="learn-more bold" href="/data">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <p>Learn about my experience analyzing and managing large datasets, creating dashboards, and supporting cloud-based data platforms.</p>
+          </div>
+        </div>
 
-      <!-- START THE FEATURETTES -->
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Intern / Research Fellow, <span class="text-muted">Environmental Data Initiative, Baylor University</span></h2>
-          <p class="lead">Working with <a href="https://environmentaldatainitiative.org/"; target="_blank"; style="text-decoration: none;">Environmental Data Initiative</a> this past summer, I have been curating lake and stream datasets for use in the EDI data portal, an open source platform for researchers to view and work with large environmental datasets. I have been performing a variety of ETL tasks and metadata wrangling, as well as creating visualization tools using RShiny. We are creating several such tools, including a dashboard to view and download StreamCat and LakeCat watershed metrics from the EPA. I have enjoyed the opportunity to lean more about data manipulation and presentation while also creating useful tools for researchers and others.</p>
-        </div>
-        <div class="col-md-5" id="portfolio-div">
-          <img src="/static/images/CRASRDashboard.png" style="max-width: 100%;">
-          <p class="caption">Screenshot of a dashboard I made for Baylor lake and stream data using RShiny, Leaflet, and DT packages in R</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Restoration Analysis of the Captain Jack Mill Superfund Site, <span class="text-muted">Groundwater Hydrology, UF</span></h2>
-          <p class="lead">For this project, I did a contaminant and restoration analysis of the <a href="https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0800892"; target="_blank"; style="text-decoration: none;">Captain Jack Mill Superfund Site</a> in Boulder County, CO. This involved creating a site model, conducting relevant calculations (mass flux, cost estimate, remediation scenarios), and modeling the contaminant plume using Interactive Groundwater (IGW). This was a great project for learning remediation strategies because I was able to create my own solution strategy and compare it with the strategy that the engineers employed in real life. </p>
-        </div>
-        <div class="col-md-5 order-md-1" id="portfolio-div">
-          <img src="/static/images/IGW.png" style="max-width: 100%;">
-          <p class="caption">Screenshot of Contaminant Plume 2D Modeling using Interactive Groundwater</p>
-        </div>
-      </div>
+        <hr class="featurette-divider">
 
-      <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-1 text-center">
+            <i class="fa fa-laptop-code fa-3x"></i>
+          </div>
+          <div class="col-md-5">
+            <h1 class="portfolio-section">Software / Web Design</h1>
+            <p><a class="learn-more bold" href="/software">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <p>Learn about my programming and web development/design projects.</p>
+          </div>
+        </div>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Todd-Brown Lab, <span class="text-muted">Environmental Engineering Department, UF</span></h2>
-          <p class="lead">At the <a href="http://ktoddbrown.github.io/"; target="_blank"; style="text-decoration: none;">Todd-Brown Lab</a> I worked heavily with computational tools such as R to analyze, visualize, and manage carbon stock models, which inform scholars and policymakers how vital ecosystems will respond to climate change. I also gained experience writing manuscripts and collaborating with people from different professional backgrounds. Working with the Marsh Equilibrium and Grow-Burn-Decay carbon models, I crafted a GUI (graphic user interface), coauthored a manuscript, created model visualization tools using R packages, and helped conduct a sensitivity analysis. This experience has been truly valuable because I gained the tenacity to work on difficult problems, experience working with many different R packages, Markdown, and Git, and the mindset to solve problems efficiently.</p>
-        </div>
-        <div class="col-md-5" id="portfolio-div">
-          <img src="/static/images/ctm_gui.png" style="max-width: 100%;">
-          <p class="caption">Screenshot of the Graphic User Interface I created using RShiny and Bootstrap for the Marsh Equilibrium Model</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Lake Caroline Water Treatment Plant, <span class="text-muted">Potable Water System Design</span></h2>
-          <p class="lead">This was my senior design project for Environmental Engineering. I worked in a team of 6 to design a full-scale water treatment facility which included plant elements such as design-drawings, historical analysis, pipe network design, chemical treatment doses, and tank sizing. I am proud of this project because our team put a ton of effort into perfecting our final design report, which ended up being over 100 pages. I enjoyed the practicality and satisfaction that came from completing this project. The biggest challenge that we faced was the hands-off approach that our professor took, which we solved by pooling together as a team and making the best decisions with the information we had.</p>
-        </div>
-        <div class="col-md-5 order-md-1" id="portfolio-div">
-          <img src="/static/images/filter.png" style="max-width: 100%;">
-          <p class="caption">Autocad drawing I designed for the filtration section of our plant</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Intern, <span class="text-muted">UF Office of Sustainability</span></h2>
-          <p class="lead">I worked with the <a href="https://sustainable.ufl.edu/"; target="_blank"; style="text-decoration: none;">Office of Sustainability</a> under their sustainable transportation program to educate students, fix bicycles, and improve campus infrastructure. I enjoyed this role because it merged my passion for bikes and sustainability, and I was able to help the community through workshops and events focused on sustainable transportation. I also gained experience with GIS software through a project where we mapped the bike racks on campus. Some things that I really enjoyed were communicating with people on the topic of sustainability and teaching about bike safety and maintenance.</p>
-        </div>
-        <div class="col-md-5" id="portfolio-div">
-          <img src="/static/images/sus.jpg" style="max-width: 100%;">
-          <p class="caption">UF Annual Bike to Campus Week</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">This Website, <span class="text-muted">My first web development project</span></h2>
-          <p class="lead">This website was a fun project as I enjoyed creating a simple app to view and share my projects. The application was created using Flask in Python and is hosted on GitHub pages. I wrote all the code for this website, which can be found on my <a href="https://github.com/jessicah3334"; target="_blank"; style="text-decoration: none;">GitHub</a>. To create the front end, I used a Bootstrap template and modified it to suit my needs, then changed the overall look of the website using CSS. When working on projects, it is tempting for me to be a perfectionist, but I know that it is also important to get to the end product. I have since done a few other web development projects and still enjoy the satisfaction of creating functional applications.</p>
+        <div class="row">
+          <div class="col-md-1 text-center">
+            <i class="fa fa-hard-hat fa-3x"></i>
+          </div>
+          <div class="col-md-5">
+            <h1 class="portfolio-section">Engineering</h1>
+            <p><a class="learn-more bold" href="/engineering">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <p>Learn about my experience using GIS, Hydrologic Modeling, and other engineering tools to solve environmental engineering problems.</p>
+          </div>
         </div>
-        <div class="col-md-5 order-md-1" id="portfolio-div">
-          <img src="/static/images/coding.png" style="max-width: 100%;">
-          <p class="caption">Screenshot from VSCode</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Officer and Trip Leader, <span class="text-muted">Outdoor Adventure and Recreation, UF</span></h2>
-          <p class="lead">UF's outdoor club is near and dear to me, since I met most of my friends and have had so many amazing experiences with this club. I had the pleasure of being a club officer this past year, serving as the Gear Shed Manager, where I took inventory of our outdoor gear, discussed COVID guidelines with the other Officers, and purchased new gear for the club. I have also been a trip leader and have led 10+ trips, being responsible for logistics and group safety. Moreover, being a part of this club helped me grow as a person, expanding my horizons and challenging myself.</p>
-        </div>
-        <div class="col-md-5" id="portfolio-div">
-          <img src="/static/images/snailshell.png" style="max-width: 100%;">
-          <p class="caption">Snail Shell Cave, Rockvale TN</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Transcontinental Cyclist, <span class="text-muted">Green Riders:Good Deeds on Bikes</span></h2>
-          <p class="lead">Green Riders is a group of people who go on bicycle tours while aiming to have a positive impact on communities and the environment. I joined them in 2019 as we biked 2700+ miles across Europe from France to Romania. Along the way we planted fruit trees, picked up trash, and raised awareness about biking as a form of sustainable transportation. I like to include this experience because I feel it is unique and showcases my passion, dedication to reaching goals, and ability to go out of my comfort zone. I am still involved with this group and will be the official route planner for our next trip down the Pacific coast (once the pandemic is over).</p>
-        </div>
-        <div class="col-md-5 order-md-1" id="portfolio-div">
-          <img src="/static/images/greenriders.jpg" style="max-width: 100%;">
-          <p class="caption">Group picture, France</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Wikipedia Article Scraper, <span class="text-muted">Personal Project</span></h2>
-          <p class="lead">This is a fun python project I did. It takes a link to a Wikipedia article as input and will give a related article as output. This was done using the python libraries requests and random; the function gathers all the links (a tags) on the input article page and follows a random one. It will do this a specified number of times, resulting in an article which is more or less related to the input article. This was a fun starter project which was also a challenge because I had to learn about recursion.</p>
-        </div>
-        <div class="col-md-5" id="portfolio-div">
-          <img src="/static/images/wiki.png" style="max-width: 100%;;">
-          <p class="caption">Scraper in action</p>
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">VP of Service Events, <span class="text-muted">Gators for Environmental Community Outreach, UF</span></h2>
-          <p class="lead">I served as the Vice President of Service Events for an Environmental Outreach club at UF. I was responsible for planning trash cleanups, organic farm volunteering, and other community service events. This was a valuable experience early on in my college career as I learned how to be a successful leader as an introvert while participating in conservation efforts in the Gainesville community.</p>
+        <div class="row">
+          <div class="col-md-1 text-center">
+            <i class="fa fa-leaf fa-3x"></i>
+          </div>
+          <div class="col-md-5">
+            <h1 class="portfolio-section">Volunteering / Sustainability</h1>
+            <p><a class="learn-more bold" href="/volunteering">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <p>Learn about my leadership in volunteering and sustainability.</p>
+          </div>
         </div>
-        <div class="col-md-5 order-md-1" id="portfolio-div">
-          <img src="/static/images/cleanup.jpg" style="max-width: 100%;">
-          <p class="caption">My car filled to the ceiling with trash from a cleanup event</p>
-        </div>
+
       </div>
-  
-      <hr class="featurette-divider">
-   
-      <!-- /END THE FEATURETTES -->
 
 
 </div>

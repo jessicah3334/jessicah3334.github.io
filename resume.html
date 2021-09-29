@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
+    <!-- Font Awesome Icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> very limited version of fa but it's fine -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -51,13 +55,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/cv">CV</a>
+            <a class="nav-link" href="/resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
@@ -72,21 +73,29 @@
 <div class="container">
   
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-4 resume">
+        <img src="/static/images/software.jpg" style="width:250px; height:250px; border-radius:50%;">
+
+        <h2 class="resume-text">Software Eng. / Developer</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to a software engineering / developer role. </p>
+        <p><a class="btn btn-secondary" href="/static/pdf/JHicks_SW.pdf" role="button" target="_blank">Download &raquo;</a></p>
+      </div>
+
+    <div class="col-lg-4 resume">
         <img src="/static/images/datascience.jpg" style="width:250px; height:250px; border-radius:50%;">
 
-        <h2>Data Science / Research</h2>
-        <p class=cv-text>Download a pdf copy of my resume relevant to a data analysis, research assistant, or software role. </p>
-        <p><a class="btn btn-secondary" href="/static/pdf/JHicks_DA.pdf" role="button">Download &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+        <h2 class="resume-text">Data Analysis</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to a data analysis or data engineering role. </p>
+        <p><a class="btn btn-secondary" href="/static/pdf/JHicks_DA.pdf" role="button" target="_blank">Download &raquo;</a></p>
+      </div>
     
-    <div class="col-lg-6">
+    <div class="col-lg-4 resume">
         <img src="/static/images/waterresources.jpg" style="width:250px; height:250px; border-radius:50%;">
 
-        <h2>Water Engineering</h2>
-        <p class=cv-text>Download a pdf copy of my resume relevant to an engineering or water resources role. </p>
-        <p><a class="btn btn-secondary" href="/static/pdf/JHicks_WR.pdf" role="button">Download &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
+        <h2 class="resume-text">Environmental Eng.</h2>
+        <p class="cv-text">Download a pdf copy of my resume relevant to an environmental engineering or water resources role. </p>
+        <p><a class="btn btn-secondary" href="/static/pdf/JHicks_WR.pdf" role="button" target="_blank">Download &raquo;</a></p>
+    </div>
 </div>
 
 
